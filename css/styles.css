@@ -82,7 +82,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Work Sans", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -6979,7 +6979,7 @@ textarea.form-control-lg {
   font-weight: lighter !important; }
 
 .fw-light {
-  font-weight: 300 !important; }
+  font-weight: 200 !important; }
 
 .fw-normal {
   font-weight: 400 !important; }
@@ -9407,5 +9407,4 @@ textarea.form-control-lg {
     display: none !important; } }
 
 a {
-  text-decoration: none;
-  color: #000; }
+  text-decoration: none; }
