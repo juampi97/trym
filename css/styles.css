@@ -9456,13 +9456,13 @@ a {
         width: 100%;
         right: 0; } }
 
-.home .carousel-item {
+.main-index .carousel-item {
   height: 90vh;
   background-position: center;
   background-size: cover;
   position: relative;
   z-index: 1; }
-  .home .carousel-item:before {
+  .main-index .carousel-item:before {
     content: "";
     position: absolute;
     left: 0;
@@ -9471,35 +9471,35 @@ a {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1; }
-  .home .carousel-item .container {
+  .main-index .carousel-item .container {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
-  .home .carousel-item h2, .home .carousel-item .h2 {
+  .main-index .carousel-item h2, .main-index .carousel-item .h2 {
     font-size: 25px;
     text-align: start;
     color: #ffffff;
     margin: 0 0 10px;
     opacity: 0; }
     @media (min-width: 992px) {
-      .home .carousel-item h2, .home .carousel-item .h2 {
+      .main-index .carousel-item h2, .main-index .carousel-item .h2 {
         font-size: 80px;
         text-align: center; } }
-  .home .carousel-item p {
+  .main-index .carousel-item p {
     font-size: 15px;
     text-align: start;
     margin: 0;
     color: #eeeeee;
     opacity: 0; }
     @media (min-width: 992px) {
-      .home .carousel-item p {
+      .main-index .carousel-item p {
         font-size: 30px;
         text-align: center; } }
-  .home .carousel-item.active h2, .home .carousel-item.active .h2 {
+  .main-index .carousel-item.active h2, .main-index .carousel-item.active .h2 {
     animation: fadeInLeft 0.5s ease forwards; }
-  .home .carousel-item.active p {
+  .main-index .carousel-item.active p {
     animation: fadeInRight 0.5s ease forwards; }
 
 @keyframes fadeInLeft {
@@ -9517,3 +9517,21 @@ a {
   100% {
     opacity: 1;
     transform: translateX(0px); } }
+
+.main-empresa {
+  width: 100vw;
+  height: 60vh; }
+  .main-empresa h1, .main-empresa .h1 {
+    font-size: 20px; }
+    @media (min-width: 992px) {
+      .main-empresa h1, .main-empresa .h1 {
+        font-size: 40px; } }
+
+.empresa_mision_bkg_img {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.empresa_mision_text {
+  height: 500px; }
