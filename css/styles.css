@@ -9413,6 +9413,21 @@ textarea.form-control-lg {
 a {
   text-decoration: none; }
 
+@media (max-width: 992px) {
+  .bg-sm-transparente {
+    background-color: rgba(0, 0, 0, 0.8) !important; } }
+
+.bg-transparente {
+  background-color: transparent !important; }
+  @media (min-width: 992px) {
+    .bg-transparente {
+      background-color: transparent !important; }
+      .bg-transparente:hover {
+        background-color: rgba(0, 0, 0, 0.8) !important; } }
+
+.bg-none {
+  background-color: transparent !important; }
+
 @media (min-width: 992px) {
   .nav_boton {
     padding-right: 20px; }

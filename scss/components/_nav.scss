@@ -1,28 +1,48 @@
+.bg-sm-transparente {
+  @media (max-width: 992px) {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  }
+}
+
+.bg-transparente {
+  background-color: transparent !important;
+  @media (min-width: 992px) {
+    background-color: transparent !important;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.8) !important;
+    }
+  }
+}
+
+.bg-none {
+  background-color: transparent !important;
+}
+
 @media (min-width: 992px) {
-    .nav_ {
-      &boton {
-        padding-right: 20px;
-        & ul li {
-          padding: 0 20px;
+  .nav_ {
+    &boton {
+      padding-right: 20px;
+      & ul li {
+        padding: 0 20px;
+      }
+      &_animame {
+        position: relative;
+        &:after {
+          content: "";
+          width: 0;
+          height: 4px;
+          background-color: #ff0707;
+          position: absolute;
+          bottom: 0;
+          right: 50%;
+          transition: all 0.5s;
+          will-change: width;
         }
-        &_animame {
-          position: relative;
-          &:after {
-            content: "";
-            width: 0;
-            height: 4px;
-            background-color: #ff0707;
-            position: absolute;
-            bottom: 0;
-            right: 50%;
-            transition: all 0.5s;
-            will-change: width;
-          }
-          &:hover:after {
-            width: 100%;
-            right: 0;
-          }
+        &:hover:after {
+          width: 100%;
+          right: 0;
         }
       }
     }
   }
+}
