@@ -1,6 +1,9 @@
 let barra_nav = document.querySelector("#barra");
 let texto_links = document.querySelectorAll("#texto_links");
-console.log(texto_links);
+let logo_nav_pc = document.querySelector("#logo_nav_pc");
+let logo_nav_phone = document.querySelector("#logo_nav_phone");
+
+// Cambio de color de la barra de navegación al hacer scroll
 
 window.addEventListener("scroll", function () {
   if (window.pageYOffset > 10) {
@@ -8,10 +11,26 @@ window.addEventListener("scroll", function () {
     texto_links.forEach((elemento) => {
       elemento.classList.add("text-negro");
     });
+    logo_nav_pc.src = "./img/logo.png";
   } else {
     barra_nav.classList.remove("bg-blanco");
     texto_links.forEach((elemento) => {
-        elemento.classList.remove("text-negro");
-      });
+      elemento.classList.remove("text-negro");
+    });
+    logo_nav_pc.src = "./img/logo.svg";
   }
 });
+
+function ToggleLogoMediaQuery() {
+  console.log(innerWidth);
+  if (innerWidth < 992) {
+    logo_nav_phone.className = "";
+    logo_nav_pc.className = "d-none";
+  } else {
+    logo_nav_phone.className = "d-none";
+    logo_nav_pc.className = "";
+
+  }
+}
+
+ToggleLogoMediaQuery()
