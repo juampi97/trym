@@ -9,28 +9,26 @@ window.addEventListener("scroll", function () {
   if (window.pageYOffset > 10) {
     barra_nav.classList.add("bg-blanco");
     texto_links.forEach((elemento) => {
-      elemento.classList.add("text-negro");
+      elemento.classList.add("texto-azul");
     });
     logo_nav_pc.src = "./img/logo.png";
   } else {
     barra_nav.classList.remove("bg-blanco");
     texto_links.forEach((elemento) => {
-      elemento.classList.remove("text-negro");
+      elemento.classList.remove("texto-azul");
     });
     logo_nav_pc.src = "./img/logo.svg";
   }
 });
 
 function ToggleLogoMediaQuery() {
-  console.log(innerWidth);
   if (innerWidth < 992) {
     logo_nav_phone.className = "";
     logo_nav_pc.className = "d-none";
   } else {
     logo_nav_phone.className = "d-none";
     logo_nav_pc.className = "";
-
   }
 }
 
-ToggleLogoMediaQuery()
+ToggleLogoMediaQuery();
