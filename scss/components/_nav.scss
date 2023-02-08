@@ -1,0 +1,28 @@
+@media (min-width: 992px) {
+    .nav_ {
+      &boton {
+        padding-right: 20px;
+        & ul li {
+          padding: 0 20px;
+        }
+        &_animame {
+          position: relative;
+          &:after {
+            content: "";
+            width: 0;
+            height: 4px;
+            background-color: #ff0707;
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            transition: all 0.5s;
+            will-change: width;
+          }
+          &:hover:after {
+            width: 100%;
+            right: 0;
+          }
+        }
+      }
+    }
+  }

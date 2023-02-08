@@ -9413,6 +9413,27 @@ textarea.form-control-lg {
 a {
   text-decoration: none; }
 
+@media (min-width: 992px) {
+  .nav_boton {
+    padding-right: 20px; }
+    .nav_boton ul li {
+      padding: 0 20px; }
+    .nav_boton_animame {
+      position: relative; }
+      .nav_boton_animame:after {
+        content: "";
+        width: 0;
+        height: 4px;
+        background-color: #ff0707;
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        transition: all 0.5s;
+        will-change: width; }
+      .nav_boton_animame:hover:after {
+        width: 100%;
+        right: 0; } }
+
 .home .carousel-item {
   height: 90vh;
   background-position: center;
