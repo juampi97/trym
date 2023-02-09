@@ -9539,3 +9539,8 @@ a {
 
 .empresa_mision_text {
   height: 500px; }
+
+.main-contacto {
+  margin-top: 96px;
+  width: 100%;
+  height: 65vh; }
