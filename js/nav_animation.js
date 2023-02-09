@@ -23,6 +23,9 @@ window.addEventListener("scroll", function () {
 
 function ToggleLogoMediaQuery() {
   if (innerWidth < 992) {
+    texto_links.forEach((elemento) => {
+      elemento.classList.add("text-blanco");
+    });
     logo_nav_phone.className = "";
     logo_nav_pc.className = "d-none";
   } else {
