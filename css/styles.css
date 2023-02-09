@@ -9417,6 +9417,10 @@ a {
   height: 5px;
   background-color: #da291c; }
 
+.linea-sep-azul {
+  height: 5px;
+  background-color: #003c71; }
+
 .texto-azul {
   color: #003c71 !important; }
 
