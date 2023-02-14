@@ -9544,6 +9544,9 @@ a {
   margin-top: 96px;
   width: 100%;
   min-height: 80vh; }
+  @media (max-width: 991px) {
+    .main_producto {
+      margin-bottom: 80px; } }
 
 @media (min-width: 992px) {
   .producto {
