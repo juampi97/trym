@@ -1,0 +1,11 @@
+.main_producto {
+  margin-top: 96px;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.producto {
+  @media (min-width: 992px) {
+    min-height: 600px;
+  }
+}

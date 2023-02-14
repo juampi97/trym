@@ -9540,6 +9540,15 @@ a {
 .empresa_mision_text {
   height: 500px; }
 
+.main_producto {
+  margin-top: 96px;
+  width: 100%;
+  min-height: 80vh; }
+
+@media (min-width: 992px) {
+  .producto {
+    min-height: 600px; } }
+
 .main-contacto {
   margin-top: 96px;
   width: 100%;
