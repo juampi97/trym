@@ -9421,6 +9421,14 @@ a {
   height: 5px;
   background-color: #003c71; }
 
+.fixedFlecha {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1; }
+  .fixedFlecha_img {
+    width: 50px; }
+
 .texto-azul {
   color: #003c71 !important; }
 
