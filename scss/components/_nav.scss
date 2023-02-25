@@ -11,10 +11,7 @@
 .bg-transparente {
   background-color: transparent !important;
   @media (min-width: 992px) {
-    background-color: transparent !important;
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.8) !important;
-    }
+    background-color: rgba(0, 0, 0, 0.8) !important;
   }
 }
 
@@ -49,4 +46,8 @@
       }
     }
   }
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
 }

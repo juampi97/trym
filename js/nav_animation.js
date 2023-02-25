@@ -22,7 +22,7 @@ window.addEventListener("scroll", function () {
       });
       logo_nav_pc.src = "./img/logo.svg";
     }
-  }else{
+  } else {
     texto_links.forEach((elemento) => {
       elemento.classList.add("text-blanco");
     });
@@ -47,3 +47,13 @@ function ToggleLogoMediaQuery() {
 }
 
 ToggleLogoMediaQuery();
+
+// Evento click buttonProductos
+
+const buttonProductos = document.querySelector(".buttonProductos")
+
+buttonProductos.addEventListener("click", function () {
+  if (innerWidth > 992) {
+    window.location = "./productos.html";
+  }
+});

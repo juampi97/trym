@@ -23,3 +23,13 @@ function ToggleLogoMediaQuery() {
 }
 
 ToggleLogoMediaQuery();
+
+// Evento click buttonProductos
+
+const buttonProductos = document.getElementById("buttonProductos");
+
+buttonProductos.addEventListener("click", function () {
+  if (innerWidth > 992) {
+    window.location = "./productos.html";
+  }
+});

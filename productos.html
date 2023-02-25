@@ -20,22 +20,22 @@
       crossorigin="anonymous"
     ></script>
     <!-- Script -->
-    <script defer src="./js/nav_animation.js"></script>
+    <script defer src="./js/nav_animation_contacto.js"></script>
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./img/favicon.svg" />
-    <title>Inicio - Trym</title>
+    <title>Contacto - Trym</title>
   </head>
   <body>
     <header>
       <nav
-        class="navbar navbar-expand-lg bg-sm-transparente navbar-dark fixed-top px-2 lg-px-4 py-3"
+        class="navbar navbar-expand-lg fixed-top px-2 lg-px-4 py-3"
         id="barra"
       >
         <div class="container-fluid">
           <a class="navbar-brand ms-lg-5" href="./index.html"
             ><img
               class=""
-              src="./img/logo.svg"
+              src="./img/logo.png"
               id="logo_nav_pc"
               alt="logo de la empresa" /><img
               class="d-none"
@@ -61,7 +61,7 @@
             <ul class="navbar-nav ms-auto pt-3 mb-2 me-lg-5">
               <li class="nav-item px-2">
                 <a
-                  class="nav-link text-blanco fw-medium nav_boton_animame"
+                  class="nav-link text-azul fw-medium nav_boton_animame"
                   id="texto_links"
                   aria-current="page"
                   href="./index.html"
@@ -70,7 +70,7 @@
               </li>
               <li class="nav-item px-2">
                 <a
-                  class="nav-link text-blanco fw-medium nav_boton_animame"
+                  class="nav-link text-azul fw-medium nav_boton_animame"
                   id="texto_links"
                   aria-current="page"
                   href="./empresa.html"
@@ -79,9 +79,9 @@
               </li>
               <li class="nav-item dropdown px-2 nav_boton_animame">
                 <a
-                  class="nav-link text-blanco fw-medium buttonProductos"
+                  class="nav-link dropdown-toggle text-azul fw-medium"
                   id="texto_links"
-                  href="./producto.html"
+                  href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -113,19 +113,11 @@
                       >Prod 3</a
                     >
                   </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-blanco fw-medium bg-none d-lg-none"
-                      id=""
-                      href="#"
-                      >Ver todos</a
-                    >
-                  </li>
                 </ul>
               </li>
               <li class="nav-item px-2">
                 <a
-                  class="nav-link text-blanco fw-medium nav_boton_animame"
+                  class="nav-link text-azul fw-medium nav_boton_animame"
                   id="texto_links"
                   href="./servicios.html"
                   >Servicios</a
@@ -133,7 +125,7 @@
               </li>
               <li class="nav-item px-2">
                 <a
-                  class="nav-link text-blanco fw-medium nav_boton_animame"
+                  class="nav-link text-azul fw-medium nav_boton_animame"
                   id="texto_links"
                   href="./contacto.html"
                   >Contacto</a
@@ -150,73 +142,28 @@
         ><img src="./img/wapp.png" alt="logo whatsapp" class="fixedFlecha_img"
       /></a>
     </div>
-    <!-- Slider -->
-    <main class="container-fluid main-index px-0">
-      <div id="carousel" class="carousel slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carousel"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div
-            class="carousel-item active"
-            style="background-image: url('./img/index/slider_1.jpg')"
-          >
-            <div class="container">
-              <h2>Lorem ipsum dolor sit amet.</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-                doloremque!
-              </p>
-            </div>
+    <!-- Productos -->
+    <main class="container-fluid main-productos d-flex justify-content-around pt-3 mb-5">
+      <div class="col-lg-10 d-flex flex-lg-row flex-wrap justify-content-around">
+        <div class="card d-flex justify-content-around" style="width: 18rem;">
+          <div class="d-flex justify-content-around">
+            <img src="./img/productos/Alif- expanlif.jpg" class="card-img-top main-productos_card_img" alt="Alif-expanlif">
           </div>
-          <div
-            class="carousel-item"
-            style="background-image: url('./img/index/slider_2.jpg')"
-          >
-            <div class="container">
-              <h2>Lorem ipsum dolor sit amet.</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-                doloremque!
-              </p>
+          <div class="card-body">
+            <h5 class="card-title">Alif-expanlif</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="d-flex justify-content-around">
+              <a href="#" class="btn btn-rojo"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></a>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </main>
     <!-- Div -->
     <div class="linea-sep-rojo"></div>
+    
     <!-- Footer -->
     <footer class="bg-azul py-3 py-lg-5">
       <div
