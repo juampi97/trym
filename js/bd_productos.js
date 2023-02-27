@@ -1,7 +1,8 @@
 // Clase productos
 
 class Productos {
-  constructor(nombre, descripcion, fotos) {
+  constructor(id, nombre, descripcion, fotos) {
+    this.id = id;
     this.nombre = nombre;
     this.descripcion = descripcion;
     this.fotos = fotos;
@@ -18,6 +19,7 @@ const loadProducts = async () => {
   const data = await response.json();
   data.forEach((element) => {
     let newProduct = new Productos(
+      element.id,
       element.nombre,
       element.descripcion,
       element.fotos

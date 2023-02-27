@@ -9567,7 +9567,14 @@ a {
   min-height: 75vh; }
   @media (max-width: 760px) {
     .main_producto {
-      min-height: 75vh; } }
+      margin-top: 100px;
+      min-height: 75vh;
+      margin-bottom: 120px; } }
+
+.producto_carousel-controls {
+  position: absolute;
+  left: 50%;
+  bottom: -50px; }
 
 @media (min-width: 992px) {
   .producto {

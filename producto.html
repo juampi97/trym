@@ -20,7 +20,9 @@
       crossorigin="anonymous"
     ></script>
     <!-- Script -->
+    <script defer src="./js/bd_productos.js"></script>
     <script defer src="./js/nav_animation_contacto.js"></script>
+    <script defer src="./js/producto_productos.js"></script>
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./img/favicon.svg" />
     <title>Producto - Trym</title>
@@ -88,7 +90,7 @@
                 >
                   Productos
                 </a>
-                <ul class="dropdown-menu bg-transparente">
+                <ul class="dropdown-menu bg-transparente" id="menuDropdownProductos">
                   <li>
                     <a
                       class="dropdown-item text-blanco fw-normal bg-none"
@@ -157,7 +159,7 @@
               class="carousel carousel-dark slide"
             >
               <div class="producto_carousel-controls">
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators" id="sliderMini">
                   <a
                     class="producto_carousel-controls_prev carousel-flecha_li d-flex justify-content-around align-items-center"
                     type="button"
@@ -239,7 +241,7 @@
                   </a>
                 </ol>
               </div>
-              <div class="d-flex justify-content-around">
+              <div class="d-flex justify-content-around" id="sliderMain">
                 <div class="carousel-inner w-75">
                   <div class="carousel-item active">
                     <img
@@ -278,7 +280,7 @@
         <div
           class="col-11 col-lg-4 d-flex flex-column align-items-top justify-content-start ms-lg-5 producto"
         >
-          <h1 class="mt-2">Alif expanlif</h1>
+          <h1 class="mt-2" id="productoTitle">Alif expanlif</h1>
           <div class="bg-rojo" style="height: 3px; margin-right: 30%"></div>
           <p class="mt-4 mt-lg-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
