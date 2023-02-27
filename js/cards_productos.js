@@ -7,7 +7,7 @@ function generateCards (array){
     
     for (const element of array){
         const card = document.createElement('div')
-        card.classList.add('card', 'card-producto', 'col-12', 'col-md-6', 'col-lg-4', 'col-xl-3', 'my-2', 'mx-2')
+        card.classList.add('card', 'card-producto', 'col-10', 'col-md-5', 'col-lg-3', 'my-2', 'mx-2')
         card.innerHTML = `
         <div class="card-body">
         <div class="d-flex justify-content-around">
