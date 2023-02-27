@@ -9556,17 +9556,51 @@ a {
     width: 16rem;
     height: auto; }
 
+.ol .li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
 .main_producto {
-  margin-top: 96px;
+  margin-top: 120px;
   width: 100%;
-  min-height: 80vh; }
-  @media (max-width: 991px) {
+  min-height: 75vh; }
+  @media (max-width: 760px) {
     .main_producto {
-      margin-bottom: 80px; } }
+      min-height: 75vh; } }
 
 @media (min-width: 992px) {
   .producto {
     min-height: 600px; } }
+
+.producto_carousel-controls {
+  position: absolute;
+  left: 50%;
+  bottom: -100px;
+  z-index: 10;
+  transform: translateX(-50%); }
+  .producto_carousel-controls .carousel-indicators {
+    position: relative;
+    margin: 0; }
+    .producto_carousel-controls .carousel-indicators_li {
+      height: 75px;
+      width: 75px;
+      margin: 0 5px;
+      background-position: center;
+      background-size: cover;
+      border: 3px solid transparent;
+      border-radius: 50%; }
+      .producto_carousel-controls .carousel-indicators_li.active {
+        border-color: rgba(155, 155, 155, 0.25); }
+    .producto_carousel-controls .carousel-indicators .carousel-flecha {
+      position: relative;
+      margin: 0; }
+      .producto_carousel-controls .carousel-indicators .carousel-flecha_li {
+        height: 50px;
+        width: 50px;
+        margin: 0 5px;
+        background-color: rgba(155, 155, 155, 0.25);
+        border-radius: 50%; }
 
 .main-contacto {
   margin-top: 120px;
