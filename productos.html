@@ -20,7 +20,9 @@
       crossorigin="anonymous"
     ></script>
     <!-- Script -->
+    <script defer src="./js/bd_productos.js"></script>
     <script defer src="./js/nav_animation_contacto.js"></script>
+    <script defer src="./js/cards_productos.js"></script>
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./img/favicon.svg" />
     <title>Contacto - Trym</title>
@@ -88,31 +90,7 @@
                 >
                   Productos
                 </a>
-                <ul class="dropdown-menu bg-transparente">
-                  <li>
-                    <a
-                      class="dropdown-item text-blanco fw-normal bg-none"
-                      id=""
-                      href="./producto.html"
-                      >Prod 1</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-blanco fw-normal bg-none"
-                      id=""
-                      href="#"
-                      >Prod 2</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-blanco fw-medium bg-none"
-                      id=""
-                      href="#"
-                      >Prod 3</a
-                    >
-                  </li>
+                <ul class="dropdown-menu bg-transparente" id="menuDropdownProductos">
                 </ul>
               </li>
               <li class="nav-item px-2">
@@ -144,21 +122,8 @@
     </div>
     <!-- Productos -->
     <main class="container-fluid main-productos d-flex justify-content-around pt-3 mb-5">
-      <div class="col-lg-10 d-flex flex-lg-row flex-wrap justify-content-around">
-        <div class="card d-flex justify-content-around" style="width: 18rem;">
-          <div class="d-flex justify-content-around">
-            <img src="./img/productos/Alif- expanlif.jpg" class="card-img-top main-productos_card_img" alt="Alif-expanlif">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Alif-expanlif</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="d-flex justify-content-around">
-              <a href="#" class="btn btn-rojo"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-              </svg></a>
-            </div>
-          </div>
-        </div>
+      <div class="col-lg-10 d-flex flex-lg-row flex-wrap justify-content-center" id="cardsProductsContainer">
+        
       </div>
     </main>
     <!-- Div -->

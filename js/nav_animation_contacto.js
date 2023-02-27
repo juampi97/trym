@@ -26,7 +26,7 @@ ToggleLogoMediaQuery();
 
 // Evento click buttonProductos
 
-const buttonProductos = document.getElementById("buttonProductos");
+const buttonProductos = document.getElementById("menuDropdownProductos");
 
 buttonProductos.addEventListener("click", function () {
   if (innerWidth > 992) {

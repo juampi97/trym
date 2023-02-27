@@ -1,0 +1,87 @@
+[
+  {
+    "nombre": "Alif expanlif",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta dignissimos recusandae explicabo sit ea. Deserunt provident nihil illo in!",
+    "fotos": [
+      "./img/productos/alif_expanlif/1.jpg",
+      "./img/productos/alif_expanlif/2.jpg",
+      "./img/productos/alif_expanlif/3.jpg",
+      "./img/productos/alif_expanlif/4.jpg"
+    ]
+  },
+  {
+    "nombre": "Cage cervical",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta dignissimos recusandae explicabo sit ea. Deserunt provident nihil illo in!",
+    "fotos": [
+      "./img/productos/cage_cervical/1.jpg",
+      "./img/productos/cage_cervical/2.jpg",
+      "./img/productos/cage_cervical/3.jpg"
+    ]
+  },
+  {
+    "nombre": "Cage cervical bloqueado",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta dignissimos recusandae explicabo sit ea. Deserunt provident nihil illo in!",
+    "fotos": [
+      "./img/productos/cage_cervical_bloqueado/1.jpg",
+      "./img/productos/cage_cervical_bloqueado/2.jpg",
+      "./img/productos/cage_cervical_bloqueado/3.jpg",
+      "./img/productos/cage_cervical_bloqueado/4.jpg",
+      "./img/productos/cage_cervical_bloqueado/5.jpg",
+      "./img/productos/cage_cervical_bloqueado/6.jpg"
+    ]
+  },
+  {
+    "nombre": "Capsa",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta dignissimos recusandae explicabo sit ea. Deserunt provident nihil illo in!",
+    "fotos": [
+      "./img/productos/capsa/1.jpg",
+      "./img/productos/capsa/2.jpg"
+    ]
+  },
+  {
+    "nombre": "Conector transversal",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta dignissimos recusandae explicabo sit ea. Deserunt provident nihil illo in!",
+    "fotos": [
+      "./img/productos/conector_transversal/1.jpg",
+      "./img/productos/conector_transversal/2.jpg",
+      "./img/productos/conector_transversal/3.jpg"
+    ]
+  },
+  {
+    "nombre": "Draken",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta dignissimos recusandae explicabo sit ea. Deserunt provident nihil illo in!",
+    "fotos": [
+      "./img/productos/draken/1.jpg",
+      "./img/productos/draken/2.jpg",
+      "./img/productos/draken/3.jpg"
+    ]
+  },
+  {
+    "nombre": "Gancho NT",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta dignissimos recusandae explicabo sit ea. Deserunt provident nihil illo in!",
+    "fotos": [
+      "./img/productos/gancho_nt/1.jpg",
+      "./img/productos/gancho_nt/2.jpg"
+    ]
+  },
+  {
+    "nombre": "Nova taurus dorso lumbar",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta dignissimos recusandae explicabo sit ea. Deserunt provident nihil illo in!",
+    "fotos": [
+      "./img/productos/nova_taurus_dorso_lumbar/1.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/2.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/3.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/4.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/5.jpg"
+    ]
+  },
+  {
+    "nombre": "Nova taurus cervical posterior",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta dignissimos recusandae explicabo sit ea. Deserunt provident nihil illo in!",
+    "fotos": [
+      "./img/productos/nt_cervical_posterior/1.jpg",
+      "./img/productos/nt_cervical_posterior/2.jpg",
+      "./img/productos/nt_cervical_posterior/2.jpg"
+    ]
+  }
+]
