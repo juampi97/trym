@@ -9429,6 +9429,16 @@ a {
   .fixedFlecha_img {
     width: 50px; }
 
+.copy {
+  height: 30px;
+  background-color: #141414; }
+  .copy_txt {
+    font-size: 0.4rem;
+    color: #d1d1d1; }
+    @media (min-width: 772px) {
+      .copy_txt {
+        font-size: 0.8rem; } }
+
 .texto-azul {
   color: #003c71 !important; }
 
@@ -9569,7 +9579,7 @@ a {
     .main_producto {
       margin-top: 100px;
       min-height: 75vh;
-      margin-bottom: 40px; } }
+      margin-bottom: 45px; } }
 
 .producto_carousel-controls {
   position: absolute;
