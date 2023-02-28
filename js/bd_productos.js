@@ -41,13 +41,25 @@ function generateMenuItems(array) {
 
   for (const element of array) {
     const menuItem = document.createElement("li");
-    menuItem.innerHTML = `<a class="dropdown-item text-blanco fw-normal bg-none" href="#">${element.nombre}</a>`;
+    menuItem.innerHTML = `<a class="dropdown-item text-blanco fw-normal bg-none VerMas" href="#" id="VerMas-${element.id}">${element.nombre}</a>`;
     menuDropdownProductos.appendChild(menuItem);
   }
 
   const menuItem = document.createElement("li");
-  menuItem.innerHTML = `<a class="dropdown-item text-blanco fw-normal bg-none d-lg-none" href="./productos.html">Ver todos</a>`;
+  menuItem.innerHTML = `<a class="dropdown-item text-blanco fw-normal bg-none d-lg-none" href="">Ver todos</a>`;
   menuDropdownProductos.appendChild(menuItem);
 }
 
 generateMenuItems(productos);
+
+// IDs cards
+
+const VerMas = document.querySelectorAll(".VerMas");
+for (const element of VerMas) {
+  element.addEventListener("click", () => {
+    const id = element.id.split("-")[1];
+    window.location.href = `./producto.html`;
+    localStorage.setItem("id", id);    
+  });
+}
+
