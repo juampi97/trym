@@ -46,7 +46,7 @@ function generateMenuItems(array) {
   }
 
   const menuItem = document.createElement("li");
-  menuItem.innerHTML = `<a class="dropdown-item text-blanco fw-normal bg-none d-lg-none" href="">Ver todos</a>`;
+  menuItem.innerHTML = `<a class="dropdown-item text-blanco fw-normal bg-none d-lg-none" href="./productos.html">Ver todos</a>`;
   menuDropdownProductos.appendChild(menuItem);
 }
 
