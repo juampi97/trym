@@ -9566,6 +9566,9 @@ a {
     width: 16rem;
     height: auto; }
 
+.product_descripction {
+  height: 120px; }
+
 .ol .li {
   margin: 0;
   padding: 0;

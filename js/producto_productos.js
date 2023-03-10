@@ -16,7 +16,11 @@ function generateContent(id) {
   //Generar tabla de items
   items_tabla.innerHTML = "";
   for (let i = 0; i < producto.items_tabla.length; i++) {
-    items_tabla.innerHTML += `<li class="list-group-item">${producto.items_tabla[i]}</li>`;
+    if (i % 2 == 0) {
+      items_tabla.innerHTML += `<li class="list-group-item list-group-item-dark">${producto.items_tabla[i]}</li>`;
+    }else{
+      items_tabla.innerHTML += `<li class="list-group-item list-group-item-ligth">${producto.items_tabla[i]}</li>`;
+    }
   }
   sliderMain.innerHTML = `
   <div class="carousel-item active">

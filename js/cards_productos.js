@@ -24,7 +24,7 @@ function generateCards(array) {
         <img class="main-productos_card_img card-img-top w-75 h-auto" src="${element.fotos[0]}" alt="${element.nombre}">
         </div>
         <h5 class="card-title pt-3">${element.nombre}</h5>
-        <p class="card-text">${element.descripcion}</p>
+        <p class="card-text product_descripction">${element.descripcion}</p>
         <div class="d-flex justify-content-around">
         <a  class="btn btn-rojo verMas" id="verMas-${element.id}">Ver más</a>
         </div>
