@@ -9,6 +9,17 @@
   }
 }
 
+.empresa_bkg {
+  background: linear-gradient(
+    rgba(53, 53, 53, 0.55),
+    rgba(53, 53, 53, 0.55)    
+  ),
+  url(../img/torno_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .empresa_mision{
   &_bkg_img {
     height: 500px;
