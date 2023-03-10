@@ -1,10 +1,11 @@
 // Clase productos
 
 class Productos {
-  constructor(id, nombre, descripcion, fotos) {
+  constructor(id, nombre, descripcion, items_tabla, fotos) {
     this.id = id;
     this.nombre = nombre;
     this.descripcion = descripcion;
+    this.items_tabla = items_tabla;
     this.fotos = fotos;
   }
 }
@@ -22,6 +23,7 @@ const loadProducts = async () => {
       element.id,
       element.nombre,
       element.descripcion,
+      element.items_tabla,
       element.fotos
     );
     arrayLoadProductos.push(newProduct);

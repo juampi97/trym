@@ -3,12 +3,21 @@ let id = localStorage.getItem("id");
 
 // Funcion para generar contenido
 const productoTitle = document.querySelector("#productoTitle");
+const productDescription = document.querySelector("#productDescription");
+const items_tabla = document.querySelector("#items_tabla");
 const sliderMini = document.querySelector("#sliderMini");
 const sliderMain = document.querySelector("#sliderMain");
 
 function generateContent(id) {
   let producto = productos.find((element) => element.id == id);
+  console.log(producto.items_tabla);
   productoTitle.innerHTML = producto.nombre;
+  productDescription.innerHTML = producto.descripcion;
+  //Generar tabla de items
+  items_tabla.innerHTML = "";
+  for (let i = 0; i < producto.items_tabla.length; i++) {
+    items_tabla.innerHTML += `<li class="list-group-item">${producto.items_tabla[i]}</li>`;
+  }
   sliderMain.innerHTML = `
   <div class="carousel-item active">
     <img
@@ -18,18 +27,18 @@ function generateContent(id) {
     />
   </div>
 `;
-    for (let i = 2; i <= producto.fotos.length; i++) {
-        sliderMain.innerHTML += `
+  for (let i = 2; i <= producto.fotos.length; i++) {
+    sliderMain.innerHTML += `
         <div class="carousel-item">
         <img
             src="./img/productos/${producto.id}/${i}.jpg"
             class="d-block w-100"
             alt="${producto.nombre}"
         />
-        </div>`
-    };
+        </div>`;
+  }
 
-    sliderMini.innerHTML = `
+  sliderMini.innerHTML = `
     <li
     data-bs-target="#carouselExampleIndicators"
     data-bs-slide-to="0"
@@ -39,21 +48,20 @@ function generateContent(id) {
     style="
       background-image: url(./img/productos/${producto.id}/1.jpg);
     "
-  ></li>`
+  ></li>`;
 
   for (let i = 2; i <= producto.fotos.length; i++) {
     sliderMini.innerHTML += `
     <li
     class="carousel-indicators_li"
     data-bs-target="#carouselExampleIndicators"
-    data-bs-slide-to="${i-1}"
+    data-bs-slide-to="${i - 1}"
     aria-label="Slide ${i}"
     style="
       background-image: url(./img/productos/${producto.id}/${i}.jpg);
     "
-  ></li>`
-};
-
+  ></li>`;
+  }
 }
 
 generateContent(id);
