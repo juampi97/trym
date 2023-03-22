@@ -10,7 +10,6 @@ const sliderMain = document.querySelector("#sliderMain");
 
 function generateContent(id) {
   let producto = productos.find((element) => element.id == id);
-  console.log(producto.items_tabla);
   productoTitle.innerHTML = producto.nombre;
   productDescription.innerHTML = producto.descripcion;
   //Generar tabla de items

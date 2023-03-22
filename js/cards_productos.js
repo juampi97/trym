@@ -26,7 +26,7 @@ function generateCards(array) {
         <h5 class="card-title pt-3">${element.nombre}</h5>
         <p class="card-text product_descripction">${element.descripcion}</p>
         <div class="d-flex justify-content-around">
-        <a  class="btn btn-rojo verMas" id="verMas-${element.id}">Ver más</a>
+        <a  class="btn btn-rojo verMas mt-3" id="verMas-${element.id}">Ver más</a>
         </div>
         </div>
         `;
