@@ -9521,9 +9521,9 @@ a {
         font-size: 30px;
         text-align: center; } }
   .main-index .carousel-item.active h2, .main-index .carousel-item.active .h2 {
-    animation: fadeInLeft 0.5s ease forwards; }
+    animation: fadeInLeft 2.5s ease forwards; }
   .main-index .carousel-item.active p {
-    animation: fadeInRight 0.5s ease forwards; }
+    animation: fadeInRight 7s ease forwards; }
 
 @keyframes fadeInLeft {
   0% {

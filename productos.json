@@ -1,7 +1,71 @@
 [
   {
+    "id": "nova_taurus_dorso_lumbar",
+    "nombre": "Nova Taurus®",
+    "descripcion": "Sistema de fijación vertebral, posterior dorsolumbosacro en titanio, compuesto por tornillos transpediculares mono y poliaxiales, barras, ganchos, y conectores.",
+    "items_tabla": [
+      "Tornillos autorroscantes en 4 diámetros (Ø4,5  Ø5,5  Ø6,5  Ø7,5mm) que van desde los 25mm a 50mm de longitud.",
+      "Barra de Ø5,5mm precortadas de 40mm a 450mm, según la longitud de la artrodesis.",
+      "Ganchos en 3 versiones (laminar, pedicular y supralaminar), cada uno en tres tamaños distintos (S-M-L)",
+      "Fácil colocación con mecanismo de bloqueo por cierre de rosca buttress superior, permitiendo el ajuste del sistema en forma segura."
+    ],
+    "fotos": [
+      "./img/productos/nova_taurus_dorso_lumbar/1.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/2.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/3.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/4.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/5.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/6.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/7.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/8.jpg",
+      "./img/productos/nova_taurus_dorso_lumbar/9.jpg"
+    ]
+  },
+  {
+    "id": "nt_cervical_posterior",
+    "nombre": "Nova Taurus® cervical",
+    "descripcion": "Sistema de fijación cervical posterior en titanio, compuesto por tornillos poliaxiales para masas laterales con barras y conectores.  ",
+    "items_tabla": [
+      "Tornillos autorroscantes en 2 diámetros (Ø3,5  y Ø4,0mm) que van desde los 8mm a 52mm de longitud.",
+      "Barra de Ø3,17mm precortadas de 60, 80, 120 y 240mm), abarcando los distintos niveles de fijación.",
+      "Posibilidad de acople con el sistema Nova Taurus® lumbosacro a través del sistema dominos",
+      "Tornillos de longitud 8 a 24mm con rosca esponjosa, y de 26 a 52 con rosca cortical.",
+      "Fácil colocación, permitiendo el ajuste del sistema en forma segura."
+    ],
+    "fotos": [
+      "./img/productos/nt_cervical_posterior/1.jpg",
+      "./img/productos/nt_cervical_posterior/2.jpg",
+      "./img/productos/nt_cervical_posterior/3.jpg"
+    ]
+  },
+  {
+    "id": "capsa",
+    "nombre": "Capsa®",
+    "descripcion": "Sistema de fusión intersomática lumbar posterior Plif en Peek-optima.",
+    "items_tabla": [
+      "Fabricado en PEEK-Optima®.",
+      "Diseño anatómico en forma de bala, para mayor facilidad de inserción, con perfil dentado.",
+      "Presentación en 3 medidas (8, 10, y 12mm)",
+      "Dos tamaños de longitud para cada una de las medidas (22 y 26mm) favorables según la anatomía vertebral y también para su colocación vía Tlif.",
+      "Cuenta con 4° de lordosis."
+    ],
+    "fotos": ["./img/productos/capsa/1.jpg", "./img/productos/capsa/2.jpg"]
+  },
+  {
+    "id": "draken",
+    "nombre": "Draken®",
+    "descripcion": "Dispositivo dinámico interespinoso en peek-optima.",
+    "items_tabla": ["Fabricado en PEEK-Optima®.", "Para opción de colocación por via percutánea.","Monolateral con preservación de ligamento supraespinoso y buena parte del interespinoso.","Autoanclado, sin necesidad de suturarlo.","Presentación en 4 medidas (8, 10, 12 y 14mm)","Sencilla técnica quirúrgica."],
+    "fotos": [
+      "./img/productos/draken/1.jpg",
+      "./img/productos/draken/2.jpg",
+      "./img/productos/draken/3.jpg",
+      "./img/productos/draken/4.jpg"
+    ]
+  },
+  {
     "id": "alif_expanlif",
-    "nombre": "Expanlif",
+    "nombre": "Expanlif®",
     "descripcion": "Sistema de fusión intersomática anterior Alif fabricado en PEEK",
     "items_tabla": [
       "Fabricado en PEEK-Optima®.",
@@ -48,71 +112,6 @@
       "./img/productos/cage_cervical_bloqueado/4.jpg",
       "./img/productos/cage_cervical_bloqueado/5.jpg",
       "./img/productos/cage_cervical_bloqueado/6.jpg"
-    ]
-  },
-  {
-    "id": "capsa",
-    "nombre": "Capsa",
-    "descripcion": "Sistema de fusión intersomática lumbar posterior Plif en Peek-optima.",
-    "items_tabla": [
-      "Fabricado en PEEK-Optima®.",
-      "Diseño anatómico en forma de bala, para mayor facilidad de inserción, con perfil dentado.",
-      "Presentación en 3 medidas (8, 10, y 12mm)",
-      "Dos tamaños de longitud para cada una de las medidas (22 y 26mm) favorables según la anatomía vertebral y también para su colocación vía Tlif.",
-      "Cuenta con 4° de lordosis."
-    ],
-    "fotos": ["./img/productos/capsa/1.jpg", "./img/productos/capsa/2.jpg"]
-  },
-  {
-    "id": "draken",
-    "nombre": "Draken",
-    "descripcion": "Dispositivo dinámico interespinoso en peek-optima.",
-    "items_tabla": ["Fabricado en PEEK-Optima®.", "Para opción de colocación por via percutánea.","Monolateral con preservación de ligamento supraespinoso y buena parte del interespinoso.","Autoanclado, sin necesidad de suturarlo.","Presentación en 4 medidas (8, 10, 12 y 14mm)","Sencilla técnica quirúrgica."],
-    "fotos": [
-      "./img/productos/draken/1.jpg",
-      "./img/productos/draken/2.jpg",
-      "./img/productos/draken/3.jpg"
-    ]
-  },
-  {
-    "id": "nova_taurus_dorso_lumbar",
-    "nombre": "Nova taurus®",
-    "descripcion": "Sistema de fijación vertebral, posterior dorsolumbosacro en titanio, compuesto por tornillos transpediculares mono y poliaxiales, barras, ganchos, y conectores.",
-    "items_tabla": [
-      "Tornillos autorroscantes en 4 diámetros (Ø4,5  Ø5,5  Ø6,5  Ø7,5mm) que van desde los 25mm a 50mm de longitud.",
-      "Barra de Ø5,5mm precortadas de 40mm a 450mm, según la longitud de la artrodesis.",
-      "Ganchos en 3 versiones (laminar, pedicular y supralaminar), cada uno en tres tamaños distintos (S-M-L)",
-      "Fácil colocación con mecanismo de bloqueo por cierre de rosca buttress superior, permitiendo el ajuste del sistema en forma segura."
-    ],
-    "fotos": [
-      "./img/productos/nova_taurus_dorso_lumbar/1.jpg",
-      "./img/productos/nova_taurus_dorso_lumbar/2.jpg",
-      "./img/productos/nova_taurus_dorso_lumbar/3.jpg",
-      "./img/productos/nova_taurus_dorso_lumbar/4.jpg",
-      "./img/productos/nova_taurus_dorso_lumbar/5.jpg",
-      "./img/productos/nova_taurus_dorso_lumbar/6.jpg",
-      "./img/productos/nova_taurus_dorso_lumbar/7.jpg",
-      "./img/productos/nova_taurus_dorso_lumbar/8.jpg",
-      "./img/productos/nova_taurus_dorso_lumbar/9.jpg"
-    ]
-  },
-  {
-    "id": "nt_cervical_posterior",
-    "nombre": "Nova taurus® cervical",
-    "descripcion": "Sistema de fijación cervical posterior en titanio, compuesto por tornillos poliaxiales para masas laterales con barras y conectores.  ",
-    "items_tabla": [
-      "Tornillos autorroscantes en 2 diámetros (Ø3,5  y Ø4,0mm) que van desde los 8mm a 52mm de longitud.",
-      "Barra de Ø3,17mm precortadas de 60, 80, 120 y 240mm), abarcando los distintos niveles de fijación.",
-      "Posibilidad de acople con el sistema Nova Taurus® lumbosacro a través del sistema dominos",
-      "Tornillos de longitud 8 a 24mm con rosca esponjosa, y de 26 a 52 con rosca cortical.",
-      "Fácil colocación, permitiendo el ajuste del sistema en forma segura."
-    ],
-    "fotos": [
-      "./img/productos/nt_cervical_posterior/1.jpg",
-      "./img/productos/nt_cervical_posterior/2.jpg",
-      "./img/productos/nt_cervical_posterior/3.jpg",
-      "./img/productos/nt_cervical_posterior/4.jpg",
-      "./img/productos/nt_cervical_posterior/5.jpg"
     ]
   }
 ]

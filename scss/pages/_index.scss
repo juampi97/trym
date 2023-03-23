@@ -45,10 +45,10 @@
       }
     }
     &.active h2 {
-      animation: fadeInLeft 0.5s ease forwards;
+      animation: fadeInLeft 2.5s ease forwards;
     }
     &.active p {
-      animation: fadeInRight 0.5s ease forwards;
+      animation: fadeInRight 7s ease forwards;
     }
   }
 }
