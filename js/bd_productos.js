@@ -1,12 +1,13 @@
 // Clase productos
 
 class Productos {
-  constructor(id, nombre, descripcion, items_tabla, fotos) {
+  constructor(id, nombre, descripcion, items_tabla, fotos, pdf) {
     this.id = id;
     this.nombre = nombre;
     this.descripcion = descripcion;
     this.items_tabla = items_tabla;
     this.fotos = fotos;
+    this.pdf = pdf;
   }
 }
 
@@ -24,7 +25,8 @@ const loadProducts = async () => {
       element.nombre,
       element.descripcion,
       element.items_tabla,
-      element.fotos
+      element.fotos,
+      element.pdf
     );
     arrayLoadProductos.push(newProduct);
   });

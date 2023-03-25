@@ -7,12 +7,14 @@ const productDescription = document.querySelector("#productDescription");
 const items_tabla = document.querySelector("#items_tabla");
 const sliderMini = document.querySelector("#sliderMini");
 const sliderMain = document.querySelector("#sliderMain");
+const linkDescargaPdf = document.querySelector("#linkDescargaPdf");
 
 function generateContent(id) {
   let producto = productos.find((element) => element.id == id);
   productoTitle.innerHTML = producto.nombre;
   productDescription.innerHTML = producto.descripcion;
   //Generar tabla de items
+  linkDescargaPdf.href = `${producto.pdf}`;
   items_tabla.innerHTML = "";
   for (let i = 0; i < producto.items_tabla.length; i++) {
     if (i % 2 == 0) {
