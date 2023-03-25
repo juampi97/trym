@@ -9498,27 +9498,34 @@ a {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center; }
+    transform: translate(-50%, -50%); }
   .main-index .carousel-item h2, .main-index .carousel-item .h2 {
-    font-size: 25px;
-    text-align: start;
+    font-size: 40px;
+    text-align: center;
     color: #ffffff;
     margin: 0 0 10px;
     opacity: 0; }
-    @media (min-width: 992px) {
+    @media (min-width: 576px) and (max-width: 992px) {
       .main-index .carousel-item h2, .main-index .carousel-item .h2 {
         font-size: 80px;
         text-align: center; } }
+    @media (min-width: 992px) {
+      .main-index .carousel-item h2, .main-index .carousel-item .h2 {
+        font-size: 100px;
+        text-align: center; } }
   .main-index .carousel-item p {
-    font-size: 15px;
-    text-align: start;
+    font-size: 20px;
+    text-align: center;
     margin: 0;
     color: #eeeeee;
     opacity: 0; }
+    @media (min-width: 576px) and (max-width: 992px) {
+      .main-index .carousel-item p {
+        font-size: 35px;
+        text-align: center; } }
     @media (min-width: 992px) {
       .main-index .carousel-item p {
-        font-size: 30px;
+        font-size: 45px;
         text-align: center; } }
   .main-index .carousel-item.active h2, .main-index .carousel-item.active .h2 {
     animation: fadeInLeft 2.5s ease forwards; }
