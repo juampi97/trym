@@ -9644,9 +9644,9 @@ a {
     position: relative;
     margin: 0; }
     .producto_carousel-controls .carousel-indicators_li {
-      height: 75px;
-      width: 75px;
-      margin: 0 5px;
+      height: 35px;
+      width: 35px;
+      margin: 10px 4px;
       background-position: center;
       background-size: cover;
       border: 3px solid transparent;
@@ -9657,8 +9657,8 @@ a {
       position: relative;
       margin: 0; }
       .producto_carousel-controls .carousel-indicators .carousel-flecha_li {
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
         margin: 0 5px;
         background-color: rgba(155, 155, 155, 0.25);
         border-radius: 50%; }
