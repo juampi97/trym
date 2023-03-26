@@ -9561,16 +9561,18 @@ a {
   background: linear-gradient(rgba(53, 53, 53, 0.55), rgba(53, 53, 53, 0.55)), url(../img/torno_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: right top; }
 
-.empresa_mision_bkg_img {
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
-
-.empresa_mision_text {
-  height: 500px; }
+.empresa_mision {
+  height: 575px; }
+  .empresa_mision_bkg_img {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .empresa_mision_text {
+    height: 100%;
+    justify-content: space-around; }
 
 .servicios_bkg {
   background: linear-gradient(rgba(53, 53, 53, 0.55), rgba(53, 53, 53, 0.55)), url(../img/torno_3.jpg);
