@@ -9550,29 +9550,25 @@ a {
 
 .main-empresa {
   width: 100vw;
-  height: 60vh; }
+  height: 60vh;
+  background: linear-gradient(rgba(53, 53, 53, 0.55), rgba(53, 53, 53, 0.55)), url(../img/torno_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
   .main-empresa h1, .main-empresa .h1 {
     font-size: 20px; }
     @media (min-width: 992px) {
       .main-empresa h1, .main-empresa .h1 {
         font-size: 40px; } }
 
-.empresa_bkg {
-  background: linear-gradient(rgba(53, 53, 53, 0.55), rgba(53, 53, 53, 0.55)), url(../img/torno_2.jpg);
+.empresa_mision_bkg_img {
+  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right top; }
+  background-position: center; }
 
-.empresa_mision {
-  height: 575px; }
-  .empresa_mision_bkg_img {
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
-  .empresa_mision_text {
-    height: 100%;
-    justify-content: space-around; }
+.empresa_mision_text {
+  height: 500px; }
 
 .servicios_bkg {
   background: linear-gradient(rgba(53, 53, 53, 0.55), rgba(53, 53, 53, 0.55)), url(../img/torno_3.jpg);
