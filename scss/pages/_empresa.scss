@@ -25,4 +25,25 @@
   &_text {
     height: 500px;
   }
+  @media (min-width: 993px) and (max-width: 1306px) {
+    &_bkg_img {
+      height: 620px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right top;
+    }
+    &_text {
+      height: 620px;
+    } 
+  }
+  @media (max-width: 992px) {
+    &_bkg_img {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right top;
+    }
+    &_text {
+      height: 620px;
+    } 
+  }
 }

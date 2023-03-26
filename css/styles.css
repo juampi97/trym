@@ -9570,6 +9570,23 @@ a {
 .empresa_mision_text {
   height: 500px; }
 
+@media (min-width: 993px) and (max-width: 1306px) {
+  .empresa_mision_bkg_img {
+    height: 620px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top; }
+  .empresa_mision_text {
+    height: 620px; } }
+
+@media (max-width: 992px) {
+  .empresa_mision_bkg_img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top; }
+  .empresa_mision_text {
+    height: 620px; } }
+
 .servicios_bkg {
   background: linear-gradient(rgba(53, 53, 53, 0.55), rgba(53, 53, 53, 0.55)), url(../img/torno_3.jpg);
   background-repeat: no-repeat;
