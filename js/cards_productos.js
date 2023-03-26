@@ -14,7 +14,8 @@ function generateCards(array) {
       "card-producto",
       "col-10",
       "col-md-5",
-      "col-lg-3",
+      "col-lg-5",
+      "col-xl-3",
       "my-2",
       "mx-2"
     );
