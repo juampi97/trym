@@ -36,6 +36,20 @@
         text-align: center;
       }
     }
+    & h3 {
+      font-size: 20px;
+      text-align: center;
+      color: #ffffff;
+      opacity: 0;
+      @media (min-width: 576px) and (max-width: 992px)  {
+        font-size: 40px;
+        text-align: center;
+      }
+      @media (min-width: 992px) {
+        font-size: 50px;
+        text-align: center;
+      }
+    }
     & p {
       font-size: 20px;
       text-align: center;
@@ -52,6 +66,9 @@
       }
     }
     &.active h2 {
+      animation: fadeInLeft 2.5s ease forwards;
+    }
+    &.active h3 {
       animation: fadeInLeft 2.5s ease forwards;
     }
     &.active p {
